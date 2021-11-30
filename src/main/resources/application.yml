@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bootcamp-eureka-server
+eureka:
+  server:
+    enableSelfPreservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+      max-threads-for-peer-replication: 0
